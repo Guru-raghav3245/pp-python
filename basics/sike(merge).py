@@ -38,3 +38,5 @@ def mid(list):
     return a + b
 
 print(mid(merge))
+
+"""This is the end of the file"""

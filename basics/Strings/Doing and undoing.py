@@ -1,0 +1,6 @@
+print("Please think of a number between 1 to 10")
+print("Then, multiply it by 10")
+print("Next, add 65")
+print("After, Subtract 34")
+print("After, multiply by 2")
+num = input()

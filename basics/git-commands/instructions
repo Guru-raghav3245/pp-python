@@ -1,0 +1,27 @@
+open git bash
+
+To know what is the current folder
+    pwd (present working directory)
+
+To list the contents of the directory
+    ls (list)
+
+Use "cd" to go to the application folder (ensure "master" is displayed)
+    HInt:
+        to go to the parent folder
+            cd ..
+
+
+To know the changes made
+    git status
+
+To add the changes
+    git add .
+
+To confirm the changes
+    git commit -m "give a meaningful comment"
+
+To push the changes to github
+    git push
+
+

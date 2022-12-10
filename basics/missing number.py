@@ -15,4 +15,4 @@ for y in range(len(series)):
     t = t + series[y]
 print(t)
 
-print("The missing number is -", x - t)
+print("The missing number is -", x - t)  

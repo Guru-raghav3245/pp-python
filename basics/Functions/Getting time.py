@@ -1,7 +1,6 @@
 # Getting time with distance and speed
 def time(distance, speed):
     x = distance / speed
-    print(x)
     if type(x) == float:
         hours = int(x)
         y = x - hours

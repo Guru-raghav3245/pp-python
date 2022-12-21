@@ -7,7 +7,9 @@ def speed(time, distance):
         min = time[-2] + sec
         min = min / 60
         hour = time[0] + min
+        speed = distance / hour
+        print(speed, "KMPH")
 
 
-speed((1, 59, 60), 0)
+speed((1, 59, 60), 2)
 

@@ -5,18 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="85770a1d-2bc5-4a6d-8ebe-e6e48c7c16c3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/basics/1 to 100(odd and even).py" beforeDir="false" afterPath="$PROJECT_DIR$/random bin/1 to 100(odd and even).py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basics/Binary to decimal.py" beforeDir="false" afterPath="$PROJECT_DIR$/random bin/Binary to decimal.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basics/Functions/Speed, distance, time.py" beforeDir="false" afterPath="$PROJECT_DIR$/basics/Functions/Getting time.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basics/allowance.py" beforeDir="false" afterPath="$PROJECT_DIR$/random bin/allowance.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basics/decimal to binary.py" beforeDir="false" afterPath="$PROJECT_DIR$/random bin/decimal to binary.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basics/learninglists.py" beforeDir="false" afterPath="$PROJECT_DIR$/random bin/learninglists.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basics/missing number.py" beforeDir="false" afterPath="$PROJECT_DIR$/random bin/missing number.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basics/pp leap year.py" beforeDir="false" afterPath="$PROJECT_DIR$/random bin/pp leap year.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basics/random 9 numbers.py" beforeDir="false" afterPath="$PROJECT_DIR$/random bin/random 9 numbers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basics/random numbers 50 .py" beforeDir="false" afterPath="$PROJECT_DIR$/random bin/random numbers 50 .py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basics/rock paper scissor.py" beforeDir="false" afterPath="$PROJECT_DIR$/random bin/rock paper scissor.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basics/sike(merge).py" beforeDir="false" afterPath="$PROJECT_DIR$/random bin/sike(merge).py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +42,7 @@
       <recent name="$PROJECT_DIR$/random bin" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Getting time">
+  <component name="RunManager" selected="Python.Getting speed">
     <configuration name="1 to 100(odd and even)" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="pp-python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -88,6 +77,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/basics/Functions/Binary to decimal.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Getting speed" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pp-python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/basics/Functions" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/basics/Functions/Getting speed.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -161,6 +171,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Getting speed" />
         <item itemvalue="Python.Getting time" />
         <item itemvalue="Python.trial" />
         <item itemvalue="Python.Binary to decimal" />

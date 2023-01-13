@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="85770a1d-2bc5-4a6d-8ebe-e6e48c7c16c3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/basics/Functions/Tuple time2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basics/Functions/Tupletime.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basics/Functions/Getting time.py" beforeDir="false" afterPath="$PROJECT_DIR$/basics/Functions/Getting time.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/Functions/Rally_time.py" beforeDir="false" afterPath="$PROJECT_DIR$/basics/Functions/Rally_time_speed_chart.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/Functions/Rally_time_import.py" beforeDir="false" afterPath="$PROJECT_DIR$/basics/Functions/Rally_time_import.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,27 +86,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Rally_time" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="pp-python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/basics/Functions" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/basics/Functions/Rally_time.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="Rally_time_function" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pp-python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -143,6 +120,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/basics/Functions/Rally_time_import.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Rally_time_speed_chart" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pp-python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/basics/Functions" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/basics/Functions/Rally_time_speed_chart.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -196,7 +194,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.Rally_time_import" />
-        <item itemvalue="Python.Rally_time" />
+        <item itemvalue="Python.Rally_time_speed_chart" />
         <item itemvalue="Python.Rally_time_function" />
         <item itemvalue="Python.trial (1)" />
         <item itemvalue="Python.Rally_speed_function" />

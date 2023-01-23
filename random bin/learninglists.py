@@ -1,5 +1,3 @@
-
-
 our_cool_kids = ["Ananya", "Aditi", "Arnav", "Guru"]
 print(our_cool_kids)
 

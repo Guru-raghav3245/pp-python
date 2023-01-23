@@ -19,8 +19,6 @@ def dtob(number):
 
     return last_ans
 
-x = int(input("Please input decimal number - "))
 
-print("Your binary number is - ", dtob(x))
 
 

@@ -11,5 +11,5 @@ def speed(time, distance):
         print(speed, "KMPH")
 
 
-speed((1, 59, 60), 2)
+#speed((1, 59, 60), 2)
 

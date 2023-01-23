@@ -6,13 +6,10 @@ def time(list):
         speed = list[x][y + 2]
 
         mins = (distance / speed) * 60
-        print(mins)
         secs = (mins - int(mins)) * 60
-        print(int(mins), "mins", int(secs), "secs")
         list[x].append(int(mins))
         list[x].append(int(secs))
 
     return list
-
-print(time(dist_speed_chart))
+#print(time(dist_speed_chart))
 

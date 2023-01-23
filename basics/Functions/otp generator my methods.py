@@ -7,8 +7,7 @@ def OTP(digits):
         list_a.append(x)
     return list_a
 
-len = int(input("What is the length of your otp - "))
-print(OTP(len))
+
 
 
 

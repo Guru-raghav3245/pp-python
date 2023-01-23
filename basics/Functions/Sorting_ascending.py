@@ -11,5 +11,3 @@ def sort(list):
                 list[i], list[j] = list[j], list[i]
     return list
 
-list_a = [2, 23, -21, 0]
-print(sort(list_a))

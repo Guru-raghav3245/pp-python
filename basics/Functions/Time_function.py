@@ -7,7 +7,7 @@ def time(distance, speed):
 
 
 
-print(time(3, 21))
+#print(time(3, 21))
 
 
 

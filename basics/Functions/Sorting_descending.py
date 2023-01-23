@@ -14,7 +14,6 @@ def sort_min(lista):
                 lista[i], lista[j] = lista[j], lista[i]
     return lista
 
-list_a = [2, 23, -21, 0]
-print(sort_min(list_a))
+
 
 

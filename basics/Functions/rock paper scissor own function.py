@@ -26,8 +26,7 @@ def rps_choice(choice1, choice2):
         else:
             return "YOU LOST"
 
-
-player1_select = random.choice(["rock", "paper", "scissors"])
+'''player1_select = random.choice(["rock", "paper", "scissors"])
 
 player2_select = random.choice(["rock", "paper", "scissors"])
 
@@ -37,4 +36,4 @@ print("player2 selection is:", player2_select)
 
 result = rps_choice(player1_select, player2_select)
 
-print("The Winner is: ", result)
+print("The Winner is: ", result)'''

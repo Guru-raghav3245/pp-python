@@ -13,9 +13,6 @@ def OTP(digits = 6):
 
     return random.randrange(start, end)
 
-input = int(input("What is your length of your otp - "))
-
-print("Your otp is -", OTP(input), "\nFrom ola.", "\nPlease dont share this with anyone")
 
 
 

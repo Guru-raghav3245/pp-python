@@ -1,4 +1,6 @@
-final = [[0, 3, 21], [3, 5, 30], [5, 8, 40], [8, 12, 60]]
-
-list = (0, 3, 21)
-print(list[0:2])
+start_time = input("Enter start time - ")
+hour = ""
+min = ""
+min += str(start_time[2:4])
+hour += str(start_time[0:2])
+print(start_time, hour, min)

@@ -1,7 +1,4 @@
 
-
-
-
 def sort_min(lista):
     for i in range(len(lista) - 1):
         for j in range(i + 1, len(lista)):

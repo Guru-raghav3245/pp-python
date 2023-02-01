@@ -1,6 +1,6 @@
 import Rally_time_speed_chart
 import Digit_count_function
-ans = []
+
 start_time = input("Enter start time - ")
 dist_speed_chart = [[0, 3, 21], [3, 5, 30], [5, 8, 40], [8, 12, 60]]
 dist_speed_chart2 = []
@@ -11,7 +11,7 @@ min = 0
 sec = 0
 dist_speed_chart2 = dist_speed_chart3
 num = Rally_time_speed_chart.time(dist_speed_chart3)
-print(num)
+format_1 = num
 if Digit_count_function.getDigitCountand0(start_time) == 4:
     start_time = str(start_time)
     min = str(min)

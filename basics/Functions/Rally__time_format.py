@@ -1,4 +1,4 @@
-import Rally_time_speed_chart
+import Rally_mins_and_seconds
 import Digit_count_function
 
 start_time = input("Enter start time - ")
@@ -10,7 +10,7 @@ hour = 0
 min = 0
 sec = 0
 dist_speed_chart2 = dist_speed_chart3
-num = Rally_time_speed_chart.time(dist_speed_chart3)
+num = Rally_mins_and_seconds.time(dist_speed_chart3)
 format_1 = num
 if Digit_count_function.getDigitCountand0(start_time) == 4:
     start_time = str(start_time)

@@ -1,5 +1,8 @@
-import Rally_time_speed_chart
+import Rally_mins_and_seconds
 import Digit_count_function
+# It gives the time when inputed start oddo, end oddo and average speed in a format. Ex: 120834
+# input: [[0, 3, 21]]
+# output : [0, 3, 21, 120834]]
 def time_format(list_nested):
     dist_speed_chart2 = []
     start_time = input("Enter start time - ")
@@ -7,11 +10,8 @@ def time_format(list_nested):
     min = 0
     sec = 0
     dist_speed_chart2 = list_nested
-    my_time = Rally_time_speed_chart.time(list_nested)
+    my_time = Rally_mins_and_seconds.time(list_nested)
     print(my_time)
-    testing = my_time
-    for x in my_time:
-        testing.append(x)
     if Digit_count_function.getDigitCountand0(start_time) == 4:
         start_time = str(start_time)
         min = str(min)
@@ -30,7 +30,6 @@ def time_format(list_nested):
             min = "0" + str(min)
         if Digit_count_function.getDigitCountand0(sec) < 2:
             sec = "0" + str(sec)
-
         if int(sec) >= 60:
             sec = sec - 60
             min += 1
@@ -47,11 +46,12 @@ def time_format(list_nested):
             hour = "00"
         if min == 0:
             min = "00"
-
         complete = str(hour) + str(min) + str(sec)
+        print(complete)
         dist_speed_chart2[x].append(complete)
-    print(dist_speed_chart2)
+    return dist_speed_chart2
 
 dist_speed_chart = [[0, 3, 21], [3, 5, 30], [5, 8, 40], [8, 12, 60]]
 dist_speed_chart3 =  [[0, 3, 23], [3, 9, 50], [9, 22, 20], [22, 46, 34], [46, 55, 24], [55, 104, 40], [104, 162, 40], [162, 193, 50], [193, 197, 20 ]]
-print(time_format(dist_speed_chart))
+print(time_format(dist_speed_chart3))
+

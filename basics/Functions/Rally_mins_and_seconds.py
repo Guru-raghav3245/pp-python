@@ -12,4 +12,3 @@ def time(list):
 
     return list
 #print(time(dist_speed_chart))
-

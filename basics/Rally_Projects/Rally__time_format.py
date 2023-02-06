@@ -1,10 +1,10 @@
-import Rally_time_speed_chart
+import Rally_mins_and_seconds
 ans = []
 start_time = input("Enter start time - ")
 dist_speed_chart = [[0, 3, 21], [3, 5, 30], [5, 8, 40], [8, 12, 60]]
 dist_speed_chart2 = [[0, 3, 21], [3, 5, 30], [5, 8, 40], [8, 12, 60]]
 final = dist_speed_chart
-num = Rally_time_speed_chart.time(dist_speed_chart)
+num = Rally_mins_and_seconds.time(dist_speed_chart)
 print(num)
 complete = ""
 mins = 0

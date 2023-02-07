@@ -3,9 +3,9 @@ import Digit_count_function
 # It gives the time when inputed start oddo, end oddo and average speed in a format. Ex: 120834
 # input: [[0, 3, 21]]
 # output : [0, 3, 21, 120834]]
-def time_format(list_nested):
+
+def time_format(list_nested, start_time):
     dist_speed_chart2 = []
-    start_time = input("Enter start time - ")
     hour = 0
     min = 0
     sec = 0
@@ -47,11 +47,10 @@ def time_format(list_nested):
         if min == 0:
             min = "00"
         complete = str(hour) + str(min) + str(sec)
-        print(complete)
         dist_speed_chart2[x].append(complete)
     return dist_speed_chart2
 
-dist_speed_chart = [[0, 3, 21], [3, 5, 30], [5, 8, 40], [8, 12, 60]]
-dist_speed_chart3 =  [[0, 3, 23], [3, 9, 50], [9, 22, 20], [22, 46, 34], [46, 55, 24], [55, 104, 40], [104, 162, 40], [162, 193, 50], [193, 197, 20 ]]
-print(time_format(dist_speed_chart3))
+#dist_speed_chart = [[0, 3, 21], [3, 5, 30], [5, 8, 40], [8, 12, 60]]
+#dist_speed_chart3 =  [[0, 3, 23], [3, 9, 50], [9, 22, 20], [22, 46, 34], [46, 55, 24], [55, 104, 40], [104, 162, 40], [162, 193, 50], [193, 197, 20 ]]
+#print(time_format(dist_speed_chart3, 12))
 

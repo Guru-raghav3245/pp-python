@@ -12,4 +12,4 @@ def time(list):
         ans.append(int(secs))
 
     return ans
-print(time(dist_speed_chart))
+#print(time(dist_speed_chart))

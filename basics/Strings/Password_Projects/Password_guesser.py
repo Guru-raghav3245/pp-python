@@ -7,11 +7,19 @@ def password_guessed(keyword, password):
         return "Not a strong password!"
     else:
         while True:
-            if Password_maker.password_generator(keyword) != password:
+            sike = Password_maker.password_generator(keyword)
+            if sike != password:
                 count += 1
-                continue
-            else:
+                print(count, sike)
+            elif sike == password:
+                print("Ok")
                 count += 1
                 break
+
+            if count > 100000:
+                print("It is a damn super password")
+                break
     return count
+
+
 print(password_guessed("water", "Water^12"))

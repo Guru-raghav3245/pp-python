@@ -1,6 +1,5 @@
-string = "WaTer#$^12&"
-word = ''
-for i in string:
-    if i.isalpha():
-        word += i
+word = "water"
+word = str(word)
+word = word + "1"
 print(word)
+

@@ -2,11 +2,11 @@ import random
 
 # Capitalizing randomly
 def password_generator(seed_word):
-    special_symbol = ["`", "`", '!', '@', '#', '$', '%', '^', '&', '*', '(', ")", '-', '_', '=', '+', "[", ']', '|',
-                      ';', ':', "'", '"', ',', '<', '.', '/', '?']
-
-    seed_word = list(seed_word)
+    special_symbol = ['!', '@', '#', '$', '%', '^', '&', '*', '(', ")", '-', '_', '=', '+', "[", ']',
+                      ';', ':', ',', '<', '.', '/', '?']
     word = ''
+    seed_word = list(seed_word)
+
     for i in range(random.randrange(1, len(seed_word))):
         letter = random.choice(seed_word)
         for i in range(len(seed_word)):

@@ -43,3 +43,4 @@ for x in range(len(ans)):
         ans[x][3] = "0" + str(ans[x][3])
 
     print(ans[x][0],"\t" ,"\t" ,ans[x][1],"\t" ,ans[x][2],"\t"   , ans[x][3],ans[x][4],"\t", "\t" ,ans[x][5])
+

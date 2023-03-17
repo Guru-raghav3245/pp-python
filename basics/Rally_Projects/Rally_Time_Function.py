@@ -51,6 +51,6 @@ def time_format(list_nested, start_time):
     return dist_speed_chart2
 
 #dist_speed_chart = [[0, 3, 21], [3, 5, 30], [5, 8, 40], [8, 12, 60]]
-#dist_speed_chart3 =  [[0, 3, 23], [3, 9, 50], [9, 22, 20], [22, 46, 34], [46, 55, 24], [55, 104, 40], [104, 162, 40], [162, 193, 50], [193, 197, 20 ]]
-#print(time_format(dist_speed_chart3, 12))
+dist_speed_chart3 =  [[0, 3, 23], [3, 9, 50], [9, 22, 20], [22, 46, 34], [46, 55, 24], [55, 104, 40], [104, 162, 40], [162, 193, 50], [193, 197, 20 ]]
+print(time_format(dist_speed_chart3, 120000))
 

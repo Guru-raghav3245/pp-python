@@ -46,10 +46,10 @@ def askquiz(ques_bank):
         if str(options[int(userinput) - 1]) == str(ans):
             score += 1
             print("Congratulations, You got the answer right")
-            print("Score - ", score)
+            print("Score_file - ", score)
         else:
             print("Sorry, That was not the correct answer!")
-            print("Score - ", score)
+            print("Score_file - ", score)
 
         ask = input("Enter to continue")
         if ask == "":

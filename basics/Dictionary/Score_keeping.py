@@ -1,4 +1,5 @@
 import random
+"""
 def create_ques_bank():
     question_list = []
     option_list = []
@@ -6,6 +7,7 @@ def create_ques_bank():
     ques_file = open("Quiz_file", 'r')
     for question in ques_file:
 # Adding question onto list
+
         if question.startswith("Question"):
             # question.rstrip("\n")
             if question.__contains__("\n"):
@@ -45,18 +47,43 @@ def askquiz(ques_bank):
         if str(options[int(userinput) - 1]) == str(ans):
             score += 1
             print("Congratulations, You got the answer right")
-            print("Score - ", score)
+            print("Score_file - ", score)
         else:
             print("Sorry, That was not the correct answer!")
-            print("Score - ", score)
+            print("Score_file - ", score)
 
         ask = input("Enter to continue")
         if ask == "":
             continue
         else:
-            exit()
+            exit()"""
 
-if __name__ == "__main__":
-    my_q_bank = create_ques_bank()
-    your_score = askquiz(my_q_bank)
+
+def add_score(score):
+    file_bank = open("Score_file", "a")
+    file_bank.write(score)
+    file_bank.close()
+    print("done")
+
+
+def max_score():
+    file_bank = open("Score_file", "r")
+    max = 0
+    for score in file_bank:
+        if score == "\n":
+            score = 0
+        score = int(score)
+        if score > max:
+            max = score
+        else:
+            continue
+    return max
+
+
+# print(add_score("11"))
+# print(max_score())
+
+
+
+
 

@@ -28,11 +28,11 @@ def quiz_maker(questions, answer, options):
         if user_ans == qa[take]:
             Score += 1
             print("Yes! That Is The Correct Answer")
-            print("Score - ", Score)
+            print("Score_file - ", Score)
         else:
             print("No, That Is Not The Right Answer. :(")
             print("The Right Answer Is - ", qa[take])
-            print("Score - ", Score)
+            print("Score_file - ", Score)
 
     print("\n")
     print("Congratulations, You got", Score, "out of", len(questions))

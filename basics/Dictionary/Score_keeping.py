@@ -59,31 +59,44 @@ def askquiz(ques_bank):
             exit()"""
 
 
-def add_score(score):
+def add_score(score, name):
     file_bank = open("Score_file", "a")
     file_bank.write(score)
+    file_bank.write(",")
+    file_bank.write(name)
+    file_bank.write("\n")
     file_bank.close()
-    print("done")
+    print("Done")
 
 
-def max_score():
+
+def print_max_score():
     file_bank = open("Score_file", "r")
-    max = 0
+    max = [1, "a"]
     for score in file_bank:
-        if score == "\n":
-            score = 0
-        score = int(score)
-        if score > max:
-            max = score
-        else:
-            continue
-    return max
+        score = score.split(",")
+        score[0] = int(score[0])
+        if int(score[0]) > max[0]:
+            max[0] = int(score[0])
+            max[1] = score[1].replace("\n", "")
+
+    print(max[1], "got the maximum score of", max[0])
 
 
-# print(add_score("11"))
-# print(max_score())
+def print_daddy_max_score():
+    file_bank = open("Score_file", "r")
+    username = ""
+    maxScore = 0
+    for line in file_bank:
+        values = line.split(",")
+        score = int(values[0])
+        if score > maxScore:
+            maxScore = score
+            username = values[1].replace("\n", "")
 
+    print(username, "got the maximum score of", maxScore)
 
-
-
+if __name__ == "__main__":
+    add_score("81", "Aaron")
+    print_max_score()
 

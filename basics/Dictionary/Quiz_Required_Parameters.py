@@ -60,4 +60,3 @@ def askquiz(ques_bank):
 if __name__ == "__main__":
     my_q_bank = create_ques_bank()
     your_score = askquiz(my_q_bank)
-

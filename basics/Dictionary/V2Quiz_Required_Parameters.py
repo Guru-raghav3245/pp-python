@@ -34,8 +34,6 @@ def askquiz(ques_bank):
     for index1, question in enumerate(ques_bank):
         ans = ques_bank[question][0]
         options = ques_bank[question]
-        str(question)
-        question = str(index1 + 1) + ". " + question + "\n"
         print(question)
         random.shuffle(options)
 

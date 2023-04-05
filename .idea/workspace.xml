@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="85770a1d-2bc5-4a6d-8ebe-e6e48c7c16c3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/basics/Dictionary/V2Quiz_Required_Parameters.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basics/Dictionary/jr3foi.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basics/Files/Basic.py" beforeDir="false" afterPath="$PROJECT_DIR$/basics/Dictionary/Quiz_file" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/Dictionary/Quiz_Required_Parameters.py" beforeDir="false" afterPath="$PROJECT_DIR$/basics/Dictionary/Quiz_Required_Parameters.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/Dictionary/V2Quiz_Required_Parameters.py" beforeDir="false" afterPath="$PROJECT_DIR$/basics/Dictionary/V2Quiz_Required_Parameters.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/Dictionary/jr3foi.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +60,7 @@
       <recent name="$PROJECT_DIR$/random bin" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.jr3foi">
+  <component name="RunManager" selected="Python.V2Quiz_Required_Parameters">
     <configuration name="1 to 100(odd and even)" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="pp-python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -210,10 +210,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.jr3foi" />
         <item itemvalue="Python.V2Quiz_Required_Parameters" />
         <item itemvalue="Python.Quiz_Required_Parameters" />
         <item itemvalue="Python.trial" />
+        <item itemvalue="Python.jr3foi" />
         <item itemvalue="Python.Quiz_dictionary" />
       </list>
     </recent_temporary>

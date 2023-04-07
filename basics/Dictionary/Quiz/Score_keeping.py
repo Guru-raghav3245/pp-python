@@ -76,12 +76,16 @@ def print_max_score():
     for score in file_bank:
         score = score.split(",")
         score[0] = int(score[0])
-        if int(score[0]) > max[0]:
+        if score[0] > max[0]:
             max[0] = int(score[0])
             max[1] = score[1].replace("\n", "")
 
     print(max[1], "got the maximum score of", max[0])
 
+
+if __name__ == "__main__":
+    add_score("813", "Aaron")
+    print_max_score()
 
 def print_daddy_max_score():
     file_bank = open("Score_file", "r")
@@ -95,8 +99,3 @@ def print_daddy_max_score():
             username = values[1].replace("\n", "")
 
     print(username, "got the maximum score of", maxScore)
-
-if __name__ == "__main__":
-    add_score("81", "Aaron")
-    print_max_score()
-

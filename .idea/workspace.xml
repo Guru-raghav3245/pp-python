@@ -5,15 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="85770a1d-2bc5-4a6d-8ebe-e6e48c7c16c3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/basics/Dictionary/Quiz/Score_file" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basics/Dictionary/Quiz(file).py" beforeDir="false" afterPath="$PROJECT_DIR$/basics/Dictionary/Quiz/Quiz(file).py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basics/Dictionary/Quiz_Required_Parameters.py" beforeDir="false" afterPath="$PROJECT_DIR$/basics/Dictionary/Quiz/Quiz_Required_Parameters.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basics/Dictionary/Quiz_dictionary.py" beforeDir="false" afterPath="$PROJECT_DIR$/basics/Dictionary/Quiz/Quiz_dictionary.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basics/Dictionary/Quiz_file" beforeDir="false" afterPath="$PROJECT_DIR$/basics/Dictionary/Quiz/Quiz_file" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basics/Dictionary/Quiz_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/basics/Dictionary/Quiz/Quiz_list.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basics/Dictionary/Score_file" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basics/Dictionary/Score_keeping.py" beforeDir="false" afterPath="$PROJECT_DIR$/basics/Dictionary/Quiz/Score_keeping.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/Dictionary/Quiz/Score_file" beforeDir="false" afterPath="$PROJECT_DIR$/basics/Dictionary/Quiz/Score_file" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/Dictionary/Quiz/Score_keeping.py" beforeDir="false" afterPath="$PROJECT_DIR$/basics/Dictionary/Quiz/Score_keeping.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/Functions/Sorting_ascending.py" beforeDir="false" afterPath="$PROJECT_DIR$/basics/Functions/Sorting_ascending.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trial.py" beforeDir="false" afterPath="$PROJECT_DIR$/trial.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,28 +41,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/Hacer/Documents/GitHub/pp-python/basics/Functions&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/Users/Hacer/Documents/GitHub/pp-python/basics/Dictionary/Quiz",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/basics/Dictionary/Quiz" />
       <recent name="$PROJECT_DIR$/basics/Functions" />
       <recent name="$PROJECT_DIR$/basics/Dictionary" />
       <recent name="$PROJECT_DIR$/basics/assessments" />
       <recent name="$PROJECT_DIR$/basics/Strings/Password_Projects" />
-      <recent name="$PROJECT_DIR$/basics/Strings" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/basics/Dictionary/Quiz" />
       <recent name="$PROJECT_DIR$/random bin" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Sorting_ascending">
+  <component name="RunManager" selected="Python.Score_keeping">
     <configuration name="1 to 100(odd and even)" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="pp-python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -80,27 +76,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/random bin/1 to 100(odd and even).py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Quiz_Required_Parameters" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="pp-python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/basics/Dictionary" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/basics/Dictionary/Quiz/Quiz_Required_Parameters.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -130,6 +105,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Score_keeping" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pp-python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/basics/Dictionary/Quiz" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/basics/Dictionary/Quiz/Score_keeping.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Sorting_ascending" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pp-python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -151,7 +147,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="jr3foi" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="V2Score_keeping" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pp-python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -159,11 +155,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/basics/Dictionary" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/basics/Dictionary/Quiz" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/basics/Dictionary/jr3foi.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/basics/Dictionary/Quiz/V2Score_keeping.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -216,11 +212,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Sorting_ascending" />
+        <item itemvalue="Python.Score_keeping" />
         <item itemvalue="Python.trial" />
+        <item itemvalue="Python.Sorting_ascending" />
+        <item itemvalue="Python.V2Score_keeping" />
         <item itemvalue="Python.Quiz(file)" />
-        <item itemvalue="Python.Quiz_Required_Parameters" />
-        <item itemvalue="Python.jr3foi" />
       </list>
     </recent_temporary>
   </component>

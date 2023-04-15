@@ -7,7 +7,7 @@ To list the contents of the directory
     ls (list)
 
 Use "cd" to go to the application folder (ensure "master" is displayed)
-    HInt:
+    Hint:
         to go to the parent folder
             cd ..
 
@@ -23,6 +23,3 @@ To confirm the changes
 
 To push the changes to github
     git push
-
-hjbsxuhb
-nnjdxj

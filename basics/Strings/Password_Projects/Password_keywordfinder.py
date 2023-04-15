@@ -23,8 +23,11 @@ def password_finder(string):
     for i in string:
         if i.isalpha():
             word += i
-    word = word.capitalize()
-    return word
+    #word = word.capitalize()
+
+    word1 = [i for i in string if i.isalpha()]
+
+    return word, word1
 
 print(password_finder("w12aTer3@"))
 

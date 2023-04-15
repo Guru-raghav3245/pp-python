@@ -1,11 +1,14 @@
 sentence = input("Please input a sentence - ")
-my_py_friend = sentence.split(" ")
+sike = sentence.split(" ")
 
-for n in range(len(my_py_friend)):
-    if len(my_py_friend[n]) < 4:
-        my_py_friend[n] = "X"
+for n in range(len(sike)):
+    if len(sike[n]) < 4:
+        sike[n] = "X"
 
     else:
-         variable = str(my_py_friend[n])
-         my_py_friend[n] = variable[0:4]
-print(my_py_friend)
+         variable = str(sike[n])
+         sike[n] = variable[0:4]
+print(sike)
+
+
+

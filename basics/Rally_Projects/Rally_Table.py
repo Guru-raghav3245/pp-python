@@ -5,18 +5,18 @@ dist_speed_chart = [[0, 3, 21], [3, 5, 30], [5, 8, 40], [8, 12, 60]]
 star = "*"
 dash = "_"
 flag_off = input("Enter start time - ")
-print(star*20, "RALLY TIME TABLE", star*20,"\n",dash*55 )
+print(star*20, "RALLY TIME TABLE", star*20, "\n", dash*55)
 ans = Rally_Time_Function.time_format(dist_speed_chart, flag_off)
 if Digit_count_function.getDigitCountand0(flag_off) == 4:
-    print("The FLAG OFF time is ", flag_off[0:2],":",flag_off[2:4],":","00")
+    print("The FLAG OFF time is ", flag_off[0:2], ":", flag_off[2:4], ":", "00")
 if Digit_count_function.getDigitCountand0(flag_off) == 6:
-    print("The FLAG OFF time is ", flag_off[0:2], ":",flag_off[2:4],":",flag_off[4:7])
+    print("The FLAG OFF time is ", flag_off[0:2], ":", flag_off[2:4], ":", flag_off[4:7])
 if Digit_count_function.getDigitCountand0(flag_off) == 2:
-    print("The FLAG OFF time is ", flag_off[0:2],":","00",":","00")
+    print("The FLAG OFF time is ", flag_off[0:2], ":", "00", ":", "00")
 print(dash*55)
-print("From","   To","   Avg speed","   Time","   Arrival time")
+print("From", "   To", "   Avg speed", "   Time", "   Arrival time")
 print(dash*55)
-print("KM","     KM","   KM/HR","     hh:mm:ss ","  hh:mm:ss ")
+print("KM", "     KM", "   KM/HR", "     hh:mm:ss ", "  hh:mm:ss ")
 print(dash*55)
 for x in range(len(ans)):
 
@@ -43,7 +43,7 @@ for x in range(len(ans)):
     if Digit_count_function.getDigitCountand0(ans[x][4]) < 2:
         ans[x][3] = "0" + str(ans[x][3])
 
-    print(ans[x][0],"\t" ,"\t" ,ans[x][1],"\t" ,ans[x][2],"\t"   , ans[x][3],ans[x][4],"\t", "\t" ,ans[x][5])
+    print(ans[x][0], "\t", "\t", ans[x][1], "\t", ans[x][2], "\t", ans[x][3], ans[x][4], "\t", "\t", ans[x][5])
 
 
 

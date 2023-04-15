@@ -1,6 +1,6 @@
 import random
 
-def OTP(digits = 6):
+def OTP(digits):
     start = ""
     end = ""
 
@@ -13,7 +13,7 @@ def OTP(digits = 6):
 
     return random.randrange(start, end)
 
-
+print(OTP(2))
 
 
 

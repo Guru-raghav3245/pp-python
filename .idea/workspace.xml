@@ -5,10 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="85770a1d-2bc5-4a6d-8ebe-e6e48c7c16c3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/basics/Dictionary/Comprehension/Basic.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics/Dictionary/Comprehension/treila.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basics/random bin/Hangman.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/Dictionary/Quiz/Quiz_file" beforeDir="false" afterPath="$PROJECT_DIR$/basics/Dictionary/Quiz/Quiz_file" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/basics/Dictionary/Quiz/Score_file" beforeDir="false" afterPath="$PROJECT_DIR$/basics/Dictionary/Quiz/Score_file" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/basics/Dictionary/Quiz/Score_keeping.py" beforeDir="false" afterPath="$PROJECT_DIR$/basics/Dictionary/Quiz/Score_keeping.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basics/Functions/Sorting_ascending.py" beforeDir="false" afterPath="$PROJECT_DIR$/basics/Functions/Sorting_ascending.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/Functions/max.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/Functions/min.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/Functions/otp generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/basics/Functions/otp generator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/Rally_Projects/Rally_Table.py" beforeDir="false" afterPath="$PROJECT_DIR$/basics/Rally_Projects/Rally_Table.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/Strings/Password_Projects/Password_keywordfinder.py" beforeDir="false" afterPath="$PROJECT_DIR$/basics/Strings/Password_Projects/Password_keywordfinder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/assessments/test2.py" beforeDir="false" afterPath="$PROJECT_DIR$/basics/assessments/test2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/meena/ages 12.py" beforeDir="false" afterPath="$PROJECT_DIR$/basics/meena/ages 12.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/timecalculation.py" beforeDir="false" afterPath="$PROJECT_DIR$/basics/Rally_Projects/timecalculation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/random bin/1 to 100(odd and even).py" beforeDir="false" afterPath="$PROJECT_DIR$/basics/random bin/1 to 100(odd and even).py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/random bin/Binary to decimal.py" beforeDir="false" afterPath="$PROJECT_DIR$/basics/random bin/Binary to decimal.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/random bin/allowance.py" beforeDir="false" afterPath="$PROJECT_DIR$/basics/random bin/allowance.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/random bin/decimal to binary.py" beforeDir="false" afterPath="$PROJECT_DIR$/basics/random bin/decimal to binary.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/random bin/learninglists.py" beforeDir="false" afterPath="$PROJECT_DIR$/basics/random bin/learninglists.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/random bin/missing number.py" beforeDir="false" afterPath="$PROJECT_DIR$/basics/random bin/missing number.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/random bin/pp leap year.py" beforeDir="false" afterPath="$PROJECT_DIR$/basics/random bin/pp leap year.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/random bin/random 9 numbers.py" beforeDir="false" afterPath="$PROJECT_DIR$/basics/random bin/random 9 numbers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/random bin/random numbers 50 .py" beforeDir="false" afterPath="$PROJECT_DIR$/basics/random bin/random numbers 50 .py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/random bin/rock paper scissor.py" beforeDir="false" afterPath="$PROJECT_DIR$/basics/random bin/rock paper scissor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/random bin/sike(merge).py" beforeDir="false" afterPath="$PROJECT_DIR$/basics/random bin/sike(merge).py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/trial.py" beforeDir="false" afterPath="$PROJECT_DIR$/trial.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,28 +63,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/Users/Hacer/Documents/GitHub/pp-python/basics/Dictionary/Quiz",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/Hacer/Documents/GitHub/pp-python/basics/Functions&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/basics/Dictionary/Quiz" />
       <recent name="$PROJECT_DIR$/basics/Functions" />
+      <recent name="$PROJECT_DIR$/basics/Dictionary/Quiz" />
       <recent name="$PROJECT_DIR$/basics/Dictionary" />
       <recent name="$PROJECT_DIR$/basics/assessments" />
       <recent name="$PROJECT_DIR$/basics/Strings/Password_Projects" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/basics/Dictionary/Comprehension" />
       <recent name="$PROJECT_DIR$/basics/Dictionary/Quiz" />
       <recent name="$PROJECT_DIR$/random bin" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Score_keeping">
+  <component name="RunManager" selected="Python.trial">
     <configuration name="1 to 100(odd and even)" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="pp-python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -84,7 +107,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Quiz(file)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Basic" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pp-python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -92,11 +115,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/basics/Dictionary" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/basics/Dictionary/Comprehension" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/basics/Dictionary/Quiz/Quiz(file).py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/basics/Dictionary/Comprehension/Basic.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Password_keywordfinder" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pp-python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/basics/Strings/Password_Projects" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/basics/Strings/Password_Projects/Password_keywordfinder.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -126,7 +170,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Sorting_ascending" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="ages 12" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pp-python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -134,32 +178,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/basics/Functions" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/basics/meena" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/basics/Functions/Sorting_ascending.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="V2Score_keeping" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="pp-python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/basics/Dictionary/Quiz" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/basics/Dictionary/Quiz/V2Score_keeping.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/basics/meena/ages 12.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -212,11 +235,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Score_keeping" />
         <item itemvalue="Python.trial" />
-        <item itemvalue="Python.Sorting_ascending" />
-        <item itemvalue="Python.V2Score_keeping" />
-        <item itemvalue="Python.Quiz(file)" />
+        <item itemvalue="Python.Score_keeping" />
+        <item itemvalue="Python.Password_keywordfinder" />
+        <item itemvalue="Python.ages 12" />
+        <item itemvalue="Python.Basic" />
       </list>
     </recent_temporary>
   </component>

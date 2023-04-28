@@ -8,7 +8,6 @@ def create_ques_bank():
     ques_file = open("Quiz_file", 'r')
     for question in ques_file:
 # Adding question onto list
-
         if question.startswith("Question"):
             # question.rstrip("\n")
             if question.__contains__("\n"):
@@ -59,15 +58,47 @@ def askquiz(ques_bank):
             continue
         else:
             print("Score = ", score)
-            name = input("Enter your name - ")
-    return ""
+    return score
 
 
-def add_score(score, name):
-    file_bank = open("Score_file", "a")
-    file_bank.write(score)
+def namechek(file, name):
+    file_bank = open(file, "r")
+    name_list = []
+    while name == "":
+        if name == "":
+            name = input("Please input a valid name - ")
+        else:
+            break
+
+    while True:
+        if len(name) <= 3:
+            name = input("Not enough characters. Please input a valid name - ")
+        else:
+            break
+
+    while True:
+        if name.isalpha():
+            break
+        else:
+            name = input("Please input a valid name - ")
+
+    while True:
+        for line in file_bank:
+            score, name1 = line.split(",")
+            name1 = str(name1)
+            name1 = name1.replace("\n", "")
+            name_list.append(str(name1))
+            if name_list.__contains__(name):
+                name = input("File contains name.\n Please enter another name - ")
+        break
+    return name
+
+
+def add_score(file, score, name):
+    file_bank = open(str(file), "a")
+    file_bank.write(str(score))
     file_bank.write(",")
-    file_bank.write(name)
+    file_bank.write(str(name))
     file_bank.write("\n")
     file_bank.close()
     print("Done")
@@ -80,7 +111,10 @@ def leaderboard(file):
     leaderboard1 = []
 
     for line in file:
-        score, name = line.split(",")
+        # print(line)
+        line = line.split(",")
+        name = line[1]
+        score = line[0]
         name = name.replace("\n", "")
         leaderboard1.append({"name": name, "score": int(score)})
 
@@ -90,7 +124,7 @@ def leaderboard(file):
             if leaderboard1[j]["score"] > leaderboard1[i]["score"]:
                 leaderboard1[i], leaderboard1[j] = leaderboard1[j], leaderboard1[i]
 
-    print("LEADERBOARD\n")
+    print("_"*20, "LEADERBOARD", "_"*20, "\n")
     for x, player in enumerate(leaderboard1):
         print(str(x + 1) + ".", player["name"], player["score"])
 
@@ -110,4 +144,9 @@ def print_max_score():
     print(max1[1], "got the maximum score of", max1[0])
     return ""
 
+
+name2 = input("What is your name - ")
+name = namechek("Score_file", name2)
+your_score = askquiz(create_ques_bank())
+print(add_score("Score_file", your_score, namechek("Score_file", name)))
 print(leaderboard("Score_file"))

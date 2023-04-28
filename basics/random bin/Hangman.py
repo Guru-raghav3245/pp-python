@@ -4,20 +4,22 @@ word_bank = ["python", "programming", "computer", 'keyboard', 'mouse', 'monitor'
              'website','database','algorithm','machine','learning','artificial','intelligence','graphics','encryption',
              'security','virus','engine','transmission','brake','steering','suspension','radiator','windshield',
              'ignition','banana','galaxy','zodiac','popcorn','monster','diamond','bicycle','rainbow','volcano',
-             'elephant',]
+             'elephant']
 word = random.choice(word_bank)
 word = list(word)
 guessed_word = ["_" for i in range(len(word))]
 live = 6
 
 while live > 0 and "_" in guessed_word:
-    print(guessed_word)
+    print("\n", " ".join(guessed_word))
     guess = input("Guess a letter: ")
     if guess in word:
         for i in range(len(word)):
             if word[i] == guess:
                 guessed_word[i] = guess
+        live += 1
         print("Good guess!")
+        print("You have", live, "lives left.")
     else:
         live -= 1
         print("Oops! That letter is not in the word. You have", live, "lives left.")

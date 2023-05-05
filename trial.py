@@ -1,3 +1,3 @@
-sike = [123, 456]
-print(sike)
-sike.append("opet")
+res = 123
+res += 123
+print(res)

@@ -1,2 +1,3 @@
-num = int(input("Enter a number"))
-print(type(num))
+sike = [123, 456]
+print(sike)
+sike.append("opet")

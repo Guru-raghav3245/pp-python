@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="85770a1d-2bc5-4a6d-8ebe-e6e48c7c16c3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/trial.py" beforeDir="false" afterPath="$PROJECT_DIR$/trial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/trial.py" beforeDir="false" afterPath="$PROJECT_DIR$/basics/trial.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,8 +54,8 @@
       <recent name="$PROJECT_DIR$/basics/Strings/Password_Projects" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/basics/Rally_Projects" />
       <recent name="$PROJECT_DIR$/basics" />
+      <recent name="$PROJECT_DIR$/basics/Rally_Projects" />
       <recent name="$PROJECT_DIR$/basics/Dictionary/Comprehension" />
       <recent name="$PROJECT_DIR$/basics/Dictionary/Quiz" />
       <recent name="$PROJECT_DIR$/random bin" />
@@ -200,7 +200,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/trial.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/basics/trial.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />

@@ -6,8 +6,8 @@ for n in range(len(sike)):
         sike[n] = "X"
 
     else:
-         variable = str(sike[n])
-         sike[n] = variable[0:4]
+        variable = str(sike[n])
+        sike[n] = variable[0:4]
 print(sike)
 
 

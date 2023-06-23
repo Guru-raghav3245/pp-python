@@ -11,5 +11,6 @@ def sort(list):
                 list[i], list[j] = list[j], list[i]
     return list
 
-qwe = [1, 2, 3,4 ,5 ,6, 7, 8, 9, 1, 0]
+
+qwe = [1, 2, 3, 4, 5, 6, 7, 8, 9, 1, 0]
 print(sort(qwe))

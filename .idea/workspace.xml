@@ -4,8 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="85770a1d-2bc5-4a6d-8ebe-e6e48c7c16c3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/basics/trial.py" beforeDir="false" afterPath="$PROJECT_DIR$/basics/trial.py" afterDir="false" />
+    <list default="true" id="85770a1d-2bc5-4a6d-8ebe-e6e48c7c16c3" name="Changes" comment="wqe2d">
+      <change afterPath="$PROJECT_DIR$/Functions/12hr clock to 24 hr clock.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Functions/IPL_man_of_the_match.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Games/Space invader.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Games/space shooter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Games/space ufo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Games/spaceship.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/random bin/MATCH IT!!! File" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/random bin/MATCH IT!!!.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assessments/test2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assessments/test2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dictionary/Quiz/Quiz_Required_Parameters.py" beforeDir="false" afterPath="$PROJECT_DIR$/Dictionary/Quiz/Quiz_Required_Parameters.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dictionary/Quiz/Quiz_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/Dictionary/Quiz/Quiz_list.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fun_formatting/2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Fun_formatting/2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Functions/Sorting_ascending.py" beforeDir="false" afterPath="$PROJECT_DIR$/Functions/Sorting_ascending.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Games/rect.py" beforeDir="false" afterPath="$PROJECT_DIR$/Games/rect.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/random bin/sike(merge).py" beforeDir="false" afterPath="$PROJECT_DIR$/random bin/sike(merge).py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trial.py" beforeDir="false" afterPath="$PROJECT_DIR$/trial.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,10 +37,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/basics/Dictionary/Quiz/Quiz_dictionary.py" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/basics/Dictionary/Quiz/Quiz_list.py" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -54,11 +66,11 @@
       <recent name="$PROJECT_DIR$/basics/Strings/Password_Projects" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Functions" />
+      <recent name="$PROJECT_DIR$/Games" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/basics" />
       <recent name="$PROJECT_DIR$/basics/Rally_Projects" />
-      <recent name="$PROJECT_DIR$/basics/Dictionary/Comprehension" />
-      <recent name="$PROJECT_DIR$/basics/Dictionary/Quiz" />
-      <recent name="$PROJECT_DIR$/random bin" />
     </key>
   </component>
   <component name="RunManager" selected="Python.trial">
@@ -83,48 +95,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Copy" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="pp-python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/basics/Games" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/basics/Games/Copy.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Number_of_ways" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="pp-python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/basics/random bin" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/basics/random bin/Number_of_ways.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="Score_keeping" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pp-python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -133,11 +103,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/basics/Dictionary/Quiz" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Dictionary/Quiz" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/basics/Dictionary/Quiz/Score_keeping.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Dictionary/Quiz/Score_keeping.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -146,7 +116,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="lines" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Space invader" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pp-python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -154,11 +124,53 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/basics/Games" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Games" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/basics/Games/lines.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Games/Space invader.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name=",md" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pp-python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/,md.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="bidsj" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pp-python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bidsj.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -200,7 +212,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/basics/trial.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/trial.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -212,10 +224,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.trial" />
-        <item itemvalue="Python.Number_of_ways" />
         <item itemvalue="Python.Score_keeping" />
-        <item itemvalue="Python.Copy" />
-        <item itemvalue="Python.lines" />
+        <item itemvalue="Python.Space invader" />
+        <item itemvalue="Python.,md" />
+        <item itemvalue="Python.bidsj" />
       </list>
     </recent_temporary>
   </component>
@@ -228,6 +240,14 @@
       <option name="presentableId" value="Default" />
       <updated>1670235323649</updated>
     </task>
+    <task id="LOCAL-00001" summary="wqe2d">
+      <created>1683548009557</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1683548009557</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -240,5 +260,20 @@
         <option value="Space.CommitStatus" />
       </list>
     </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="wqe2d" />
+    <option name="LAST_COMMIT_MESSAGE" value="wqe2d" />
   </component>
 </project>

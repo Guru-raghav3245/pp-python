@@ -16,8 +16,8 @@ def random_rects(n):
         rects.append(r)
     return rects
 
-# create routine for drawing the board
 
+# create routine for drawing the board
 # create screen
 pygame.init()
 

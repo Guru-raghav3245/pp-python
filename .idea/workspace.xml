@@ -5,22 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="85770a1d-2bc5-4a6d-8ebe-e6e48c7c16c3" name="Changes" comment="wqe2d">
-      <change afterPath="$PROJECT_DIR$/Functions/12hr clock to 24 hr clock.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Functions/IPL_man_of_the_match.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Games/Space invader.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Games/space shooter.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Games/space ufo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Games/spaceship.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/random bin/MATCH IT!!! File" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/random bin/MATCH IT!!!.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Functions/IPL_man_of_the_match" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IPL_Matches/IPL_man_of_the_match2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IPL_Matches/IPL_man_of_the_match_test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IPL_Matches/Match 1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IPL_Matches/Match 2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IPL_Matches/trial.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assessments/test2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assessments/test2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dictionary/Quiz/Quiz_Required_Parameters.py" beforeDir="false" afterPath="$PROJECT_DIR$/Dictionary/Quiz/Quiz_Required_Parameters.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dictionary/Quiz/Quiz_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/Dictionary/Quiz/Quiz_list.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Fun_formatting/2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Fun_formatting/2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Functions/Sorting_ascending.py" beforeDir="false" afterPath="$PROJECT_DIR$/Functions/Sorting_ascending.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Games/rect.py" beforeDir="false" afterPath="$PROJECT_DIR$/Games/rect.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random bin/sike(merge).py" beforeDir="false" afterPath="$PROJECT_DIR$/random bin/sike(merge).py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Functions/IPL_man_of_the_match " beforeDir="false" afterPath="$PROJECT_DIR$/Functions/IPL_man_of_the_match2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Functions/IPL_man_of_the_match.py" beforeDir="false" afterPath="$PROJECT_DIR$/Functions/IPL_man_of_the_match.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Functions/Quiz_Required_Parameters.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/trial.py" beforeDir="false" afterPath="$PROJECT_DIR$/trial.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,17 +48,17 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/Hacer/Documents/GitHub/pp-python/basics/Functions&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/Hacer/Documents/GitHub/pp-python/IPL_Matches&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/IPL_Matches" />
       <recent name="$PROJECT_DIR$/basics/Functions" />
       <recent name="$PROJECT_DIR$/basics/Dictionary/Quiz" />
       <recent name="$PROJECT_DIR$/basics/Dictionary" />
       <recent name="$PROJECT_DIR$/basics/assessments" />
-      <recent name="$PROJECT_DIR$/basics/Strings/Password_Projects" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Functions" />
@@ -73,7 +68,7 @@
       <recent name="$PROJECT_DIR$/basics/Rally_Projects" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.trial">
+  <component name="RunManager" selected="Python.trial (1)">
     <configuration name="1 to 100(odd and even)" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="pp-python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -95,7 +90,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Score_keeping" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pp-python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -103,11 +98,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Dictionary/Quiz" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Fun_formatting" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Dictionary/Quiz/Score_keeping.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Fun_formatting/2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -116,7 +111,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Space invader" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="IPL_man_of_the_match" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pp-python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -124,11 +119,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Games" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Functions" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Games/Space invader.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Functions/IPL_man_of_the_match.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -137,7 +132,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name=",md" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="IPL_man_of_the_match2 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pp-python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -145,11 +140,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/IPL_Matches" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/,md.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/IPL_Matches/IPL_man_of_the_match2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -158,7 +153,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="bidsj" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="IPL_man_of_the_match2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pp-python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -166,11 +161,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Functions" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bidsj.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Functions/IPL_man_of_the_match2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -200,7 +195,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="trial" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="trial (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pp-python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -208,11 +203,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/IPL_Matches" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/trial.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/IPL_Matches/trial.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -223,11 +218,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.trial" />
-        <item itemvalue="Python.Score_keeping" />
-        <item itemvalue="Python.Space invader" />
-        <item itemvalue="Python.,md" />
-        <item itemvalue="Python.bidsj" />
+        <item itemvalue="Python.trial (1)" />
+        <item itemvalue="Python.IPL_man_of_the_match2 (1)" />
+        <item itemvalue="Python.IPL_man_of_the_match2" />
+        <item itemvalue="Python.IPL_man_of_the_match" />
+        <item itemvalue="Python.2" />
       </list>
     </recent_temporary>
   </component>

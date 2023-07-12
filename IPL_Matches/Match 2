@@ -1,0 +1,35 @@
+#bat, <player name>, <runs>, <balls>, <4s>, <6s>
+#ball, <player name>, <runs>, <overs>, <wickets>
+
+#KKR
+bat,Mandeep Singh,2,4,0,0
+bat,Rahmanullah Gurbaz,22,16,3,1
+bat,Anukul Roy,4,5,1,0
+bat,Venkatesh Iyer,34,28,3,1
+bat,Nitish Rana,24,17,3,1
+bat,Rinku Singh,4,4,0,0
+bat,Andre Russell,35,19,3,2
+bat,Shardul Thakur,8,3,0,1
+bat,Sunil Narine,7,2,0,1
+ball,Sam Curran,38,3.0,1
+ball,Arshdeep Singh,19,3.0,3
+ball,Nathan Ellis,27,3.0,1
+ball,Sikandar Raza,25,3.0,1
+ball,Rishi Dhawan,15,1.0,0
+ball,Rahul Chahar,12,2.0,1
+ball,Harpreet Brar,7,1.0,0
+
+bat, Prabhsimran Singh,23,12,2,2,191.667
+bat, Shikhar Dhawan,40,29,6,0,137.931
+bat, Bhanuka Rajapaksa,50,32,5,2,156.250
+bat, Jitesh Sharma, 21, 11, 1, 2, 190.909
+bat, Sikandar Raza, 16, 13, 1, 1, 123.077
+bat, Sam Curran, 26, 17, 0, 2, 152.941
+bat, Shahrukh Khan, 11, 7, 2, 0, 157.143
+ball, Prabhsimran Singh, 23, 4.0, 0
+ball, Shikhar Dhawan, 40, 4.0, 1
+ball, Bhanuka Rajapaksa, 50, 4.0, 0
+ball, Jitesh Sharma, 21, 4.0, 0
+ball, Sikandar Raza, 16, 4.0, 0
+ball, Sam Curran, 26, 4.0, 0
+ball, Shahrukh Khan, 11, 4.0, 0

@@ -1,0 +1,38 @@
+# bat, <player name>, <runs>, <balls>, <4s>, <6s>
+# ball, <player name>, <runs>, <overs>, <wickets>
+
+# DC
+bat, KL Rahul, 8, 12, 0, 1
+bat, Kyle Mayers, 73, 38, 2, 7
+bat, Deepak Hooda, 17, 18, 0, 0
+bat, Krunal Pandya, 15, 13, 0, 1
+bat, Marcus Stoinis, 12, 10, 0, 1
+bat, Nicholas Pooran, 36, 21, 2, 3
+bat, Ayush Badoni, 18, 7, 1, 2
+bat, Krishnappa Gowtham, 6, 1, 0, 1
+ball, Khaleel Ahmed, 4, 4.0, 2
+ball, Mukesh Kumar, 0, 4.0, 0
+ball, Chetan Sakariya, 2, 4.0, 2
+ball, Axar Patel, 1, 4.0, 1
+ball, Kuldeep Yadav, 1, 4.0, 1
+
+# LSG
+bat, Prithvi Shaw, 12, 9, 2, 0
+bat, David Warner, 56, 48, 7, 0
+bat, Mitchell Marsh, 0, 1, 0, 0
+bat, Sarfaraz Khan, 4, 9, 1, 0
+bat, Rilee Rossouw, 30, 20, 3, 1
+bat, Rovman Powell, 1, 3, 0, 0
+bat, Aman Hakim Khan, 4, 5, 0, 0
+bat, Axar Patel, 16, 11, 1, 1
+bat, Kuldeep Yadav, 6, 10, 1, 0
+bat, Chetan Sakariya, 4, 4, 1, 0
+bat, Mukesh Kumar, 0, 1, 0, 0
+ball, Kyle Mayers, 7, 1.0, 0
+ball, Jaydev Unadkat, 39, 3.0, 0
+ball, Krishnappa Gowtham, 23, 4.0, 0
+ball, Avesh Khan, 29, 4.0, 2
+ball, Mark Wood, 14, 4.0, 5
+ball, Ravi Bishnoi, 31, 4.0, 2
+
+man_of_the_match, Mark Wood

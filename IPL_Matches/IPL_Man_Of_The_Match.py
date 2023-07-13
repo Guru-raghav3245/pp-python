@@ -1,14 +1,15 @@
 def calculating_batsmen_strike_rate(file):
     file = open(file, "r")
     batsmen_strike_rates = {}
+    man_of_the_match = ""
     for line in file:
         line = line.strip().split(",")
         if line[0] == "bat":
-            runs = int(line[2])  #
+            runs = int(line[2])
             balls = int(line[3])
             fours = int(line[4])
             sixes = int(line[5])
-            overs = int(line[3]) // 6
+            overs = balls // 6
             strike_rate = (runs / balls) * 100
             strike_rate = round(strike_rate, 2)
             player_name = line[1]
@@ -22,8 +23,10 @@ def calculating_batsmen_strike_rate(file):
                     "overs": overs
                 }
             })
+        elif line[0] == "man_of_the_match":
+            man_of_the_match = line[1]
     file.close()
-    return batsmen_strike_rates
+    return batsmen_strike_rates, man_of_the_match
 
 
 def calculating_man_of_the_match(batsmen_strike_rates):
@@ -57,8 +60,7 @@ def getting_players(file_name):
     for each in file:
         each = each.strip().split(",")
         if each[0] == "ball" and len(each) >= 4:
-            if each[-1].endswith("\n"):
-                each[-1] = each[-1][:-1]
+            each[-1] = each[-1].replace("\n", "")
             economy = int(each[2]) / float(each[3])
             economy = round(economy, 2)
             bowler_name = each[1]
@@ -66,7 +68,6 @@ def getting_players(file_name):
             bowler_name_list.append(bowler_name)
     file.close()
     return bowler_name_list, economy_list
-
 
 
 def comparing_bowlers(bowler_name_list, economy_list):
@@ -81,10 +82,17 @@ def comparing_bowlers(bowler_name_list, economy_list):
 
 if __name__ == "__main__":
     print("_" * 10, "Calculation", "_" * 10)
-    players = getting_players("Match 2")
-    bowl = comparing_bowlers(players[0], players[1])
-    bat = calculating_man_of_the_match(calculating_batsmen_strike_rate("Match 2"))
+    file = "Match 1"
+    data = calculating_batsmen_strike_rate(file)
+    batsmen_data = data[0]
+    actual_motm = data[1]
+    bowler_name_list, economy_list = getting_players(file)
+    bowl = comparing_bowlers(bowler_name_list, economy_list)
+    bat = calculating_man_of_the_match(batsmen_data)
     if float(bowl[0]) > float(bat[1]):
-        print("The man of the match is", bowl[1], "with a score of - ", round(bowl[0], 2))
+        print("The man of the match is", bowl[0], "with a score of -", round(bowl[0], 2))
+        print("The actual man of the match is -", actual_motm)
     else:
-        print("The man of the match is", bat[0], "with a score of - ", bat[1])
+        print("The man of the match is", bat[0], "with a score of -", bat[1])
+        print("The actual man of the match is -", actual_motm)
+

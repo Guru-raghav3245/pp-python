@@ -1,7 +1,9 @@
 def calculating_batsmen_strike_rate(file):
     file = open(file, "r")
     batsmen_strike_rates = {}
+    teams = []  # Initialize an empty list to store team names
     man_of_the_match = ""
+
     for line in file:
         line = line.strip().split(",")
         if line[0] == "bat":
@@ -25,8 +27,10 @@ def calculating_batsmen_strike_rate(file):
             })
         elif line[0] == "man_of_the_match":
             man_of_the_match = line[1]
+        elif line[0] == "Team 1" or line[0] == "Team 2":
+            teams.append(line[1])
     file.close()
-    return batsmen_strike_rates, man_of_the_match
+    return batsmen_strike_rates, man_of_the_match, teams
 
 
 def calculating_man_of_the_match(batsmen_strike_rates):
@@ -46,7 +50,6 @@ def calculating_man_of_the_match(batsmen_strike_rates):
             max_score = score
             man_of_the_match_name = player_name
             max_sr = strike_rate
-
     average_strike_rate = sum_sr / len(batsmen_strike_rates)
     relative_performance_index_motm = (max_sr / average_strike_rate) * 100
     return man_of_the_match_name, max_score, round(relative_performance_index_motm, 1)
@@ -62,11 +65,9 @@ def getting_players(file_name):
         if each[0] == "ball" and len(each) >= 4:
             each[-1] = each[-1].replace("\n", "")
             economy = int(each[2]) / float(each[3])
-            print(int(each[2]), float(each[3]))
             economy = round(economy, 2)
             bowler_name = each[1]
             economy_list.append(economy)
-            print(economy_list)
             bowler_name_list.append(bowler_name)
     file.close()
     return bowler_name_list, economy_list
@@ -88,6 +89,8 @@ if __name__ == "__main__":
     data = calculating_batsmen_strike_rate(file)
     batsmen_data = data[0]
     actual_motm = data[1]
+    teams = data[2]
+    print("Teams - ", teams[0], "and", teams[1])
     bowler_name_list, economy_list = getting_players(file)
     bowl = comparing_bowlers(bowler_name_list, economy_list)
     bat = calculating_man_of_the_match(batsmen_data)
@@ -97,4 +100,3 @@ if __name__ == "__main__":
     else:
         print("The man of the match is", bat[0], "with a score of -", bat[1])
         print("The actual man of the match is -", actual_motm)
-

@@ -1,7 +1,8 @@
 #bat, <player name>, <runs>, <balls>, <4s>, <6s>
 #ball, <player name>, <runs>, <overs>, <wickets>
 
-#KKR
+Team 1,KKR
+Team 2,PBKS
 bat,Mandeep Singh,2,4,0,0
 bat,Rahmanullah Gurbaz,22,16,3,1
 bat,Anukul Roy,4,5,1,0

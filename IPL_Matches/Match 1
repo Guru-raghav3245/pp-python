@@ -1,7 +1,7 @@
 # bat, <player name>, <runs>, <balls>, <4s>, <6s>
 # ball, <player name>, <runs>, <overs>, <wickets>
 
-#CSK
+Team 1, CSK
 bat,Devon Conway,1,6,0,0
 bat,Ruturaj Gaikwad,92,50,4,9
 bat,Moeen Ali,23,17,4,1
@@ -18,7 +18,7 @@ ball,Rashid Khan,26,4.0,2
 ball,Alzarri Joseph,33,4.0,2
 ball,Yash Dayal,14,1.0,0
 
-#GT
+Team 2, GT
 bat,Wriddhiman Saha,25,16,2,2
 bat,Shubman Gill,63,36,6,3
 bat,Sai Sudharsan,22,17,3,0

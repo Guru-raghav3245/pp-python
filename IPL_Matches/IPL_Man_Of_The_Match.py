@@ -1,3 +1,7 @@
+# We are trying to find the Man Of The Match using data from actual matches
+# <https://www.cricketwa.com/article/369/man-of-the-match-list-ipl-2023.aspx>
+
+# Batters
 def calculating_batsmen_strike_rate(file):
     file = open(file, "r")
     batsmen_strike_rates = {}
@@ -39,11 +43,9 @@ def calculating_batsmen_strike_rate(file):
     file.close()
     return batsmen_strike_rates, man_of_the_match, teams
 
+
 def calculating_man_of_the_match(batsmen_strike_rates):
-    max_score = 0
-    man_of_the_match_name = ""
-    sum_sr = 0
-    max_sr = 0
+    top_players = []
     for player_name, stats in batsmen_strike_rates.items():
         strike_rate = stats["strike_rate"]
         runs = stats["runs"]
@@ -51,15 +53,20 @@ def calculating_man_of_the_match(batsmen_strike_rates):
         sixes = stats["sixes"]
         overs = stats["overs"]
         score = runs * strike_rate + fours * 4 + sixes * 6 + overs * 10
-        sum_sr += strike_rate
-        if score > max_score:
-            max_score = score
-            man_of_the_match_name = player_name
-            max_sr = strike_rate
-    average_strike_rate = sum_sr / len(batsmen_strike_rates)
-    relative_performance_index_motm = (max_sr / average_strike_rate) * 100
-    print("The man of the match is - ",man_of_the_match_name, "with a relative performance index of ",
-          round(relative_performance_index_motm, 1))
+        top_players.append((player_name, score, strike_rate))
+
+    # Sort the players by their scores in descending order
+    top_players = sorted(top_players, key=lambda x: x[1], reverse=True)
+
+    print("\nBatting")
+    print("Top 3 Batsmen:")
+    for i in range(3):
+        player_name, score, strike_rate1 = top_players[i]
+        print(player_name.upper(), "has a score of", score.__round__())
+        print("    ", player_name, "has a strike rate of", strike_rate1)
+
+    # Return the name and score of the actual Man of the Match
+    man_of_the_match_name, max_score, strikerate = top_players[0]
     return man_of_the_match_name, max_score
 
 
@@ -93,23 +100,24 @@ def comparing_bowlers(bowler_name_list, economy_list):
         average_economy = sum1 / len1
 
         bowler_list = dict(zip(bowler_economy, bowler_name_list))
-        name = bowler_list[bowler_economy[0]]
         bowler_economy = sorted(bowler_economy)
         best_economy = bowler_economy[0]
 
-    points = (average_economy / best_economy) * 1000
-
-    print("The bowler", bowler_list[bowler_economy[0]], "has an economy of", best_economy)
-    print("The points for", name, "is", points.__round__(2))
+    points = (average_economy / best_economy) * 10000
+    print("\nBowling")
+    print("Top 3 bowlers")
+    for number in range(3):
+        print(str(bowler_list[bowler_economy[number]]).upper(), "has an economy of", bowler_economy[number])
+        print("    The points for", str(bowler_list[bowler_economy[number]]), "is", ((average_economy/bowler_economy[number]) * 10000).__round__())
     return points, bowler_list.get(best_economy)
-
 
 
 match_names = ["Match 1", "Match 2", "Match 3", "Match 4", "Match 5", "Match 6", "Match 7", "Match 8", "Match 9",
                "Match 10", "Match 11", "Match 12"]
+ 
 for match in match_names:
     if __name__ == "__main__":
-        print("_" * 10, "Calculation", "_" * 10)
+        print("\n","_" * 10, "Calculation", "_" * 10)
         print("Match - ", match)
         file = match
         data = calculating_batsmen_strike_rate(file)
@@ -121,8 +129,8 @@ for match in match_names:
         bowl = comparing_bowlers(bowler_name_list, economy_list)
         bat = calculating_man_of_the_match(batsmen_data)
         if float(bowl[0]) > float(bat[1]):
-            print("The man of the match is", bowl[1], "with a score of -", round(bowl[0]))
+            print("\nThe man of the match is", bowl[1], "with a score of -", bowl[0].__round__())
             print("The actual man of the match is -", actual_motm)
         else:
-            print("The man of the match is", bat[0], "with a score of -", bat[1])
+            print("\nThe man of the match is", bat[0], "with a score of -", bat[1].__round__())
             print("The actual man of the match is -", actual_motm)

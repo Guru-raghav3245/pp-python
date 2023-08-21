@@ -2,6 +2,7 @@
 # <https://www.cricketwa.com/article/369/man-of-the-match-list-ipl-2023.aspx>
 
 # Batters
+# Opening files and calculating strike rate
 def calculating_batsmen_strike_rate(file):
     file = open(file, "r")
     batsmen_strike_rates = {}
@@ -43,7 +44,7 @@ def calculating_batsmen_strike_rate(file):
     file.close()
     return batsmen_strike_rates, man_of_the_match, teams
 
-
+# Using data to find the man of the match
 def calculating_man_of_the_match(batsmen_strike_rates):
     top_players = []
     for player_name, stats in batsmen_strike_rates.items():
@@ -80,6 +81,7 @@ def getting_players(file_name):
         if each[0] == "bowl" and len(each) >= 4:
             each[-1] = each[-1].replace("\n", "")
             economy = int(each[2]) / float(each[3])
+            #        number of runs/ number of balls
             economy = round(economy, 2)
             bowler_name = each[1]
             economy_list.append(economy)

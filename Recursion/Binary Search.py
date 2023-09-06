@@ -1,8 +1,6 @@
 # [1,2,3,4,5,6,7,8,9,10]
 # To find 3
 # The program should return 2
-
-
 # Normal
 def finder(lst, num):
     sorted_list = sorted(lst)
@@ -39,6 +37,7 @@ def binary_search(lst, num):
 
     print(f"The element {num} is not in the list")
 
+
 # Recursion
 def binary_search2(lst, num, low_index=0, high_index=None):
     if high_index is None:
@@ -55,7 +54,7 @@ def binary_search2(lst, num, low_index=0, high_index=None):
             binary_search2(lst, num, low_index, mid - 1)
 
 
-my_list = [5, 7, 8, 9, 10, 12, 14, 16, 18, 20, 22, 59, 67, 80, 93, 103]
+my_list = [5, 7, 8, 9, 10, 12, 14, 16, 18, 20, 22, 59, 67, 80, 93, 103, 105]
 element_to_find = 59
 
 finder(my_list, element_to_find)

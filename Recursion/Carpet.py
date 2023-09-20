@@ -3,7 +3,7 @@ turtle.tracer(10, 0) # Increase the first argument to speed up the drawing. Spee
 turtle.setworldcoordinates(0, 0, 700, 700) # Starting position
 turtle.hideturtle() # Doesn't show the cursor
 
-MIN_SIZE = 5 # Try changing this to decrease/increase the amount of recursion. # The no: squares printed
+MIN_SIZE = 10 # Try changing this to decrease/increase the amount of recursion. # The no: squares printed
 DRAW_SOLID = True
 
 def isTooSmall(width, height):
@@ -40,6 +40,7 @@ def drawInnerRectangle(x, y, width, height):
     else:
         # RECURSIVE CASE
         # Coordinates to draw inner rectangle
+
         oneThirdWidth = width / 3
         oneThirdHeight = height / 3
         twoThirdsWidth = 2 * (width / 3)
@@ -61,7 +62,6 @@ def drawInnerRectangle(x, y, width, height):
         turtle.penup()
         if DRAW_SOLID:
             turtle.end_fill()
-
         # Draw the inner rectangles across the top.
         drawInnerRectangle(x, y + twoThirdsHeight, oneThirdWidth, oneThirdHeight)
         drawInnerRectangle(x + oneThirdWidth, y + twoThirdsHeight, oneThirdWidth, oneThirdHeight)
@@ -75,6 +75,6 @@ def drawInnerRectangle(x, y, width, height):
         drawInnerRectangle(x, y, oneThirdWidth, oneThirdHeight)
         drawInnerRectangle(x + oneThirdWidth, y, oneThirdWidth, oneThirdHeight)
         drawInnerRectangle(x + twoThirdsWidth, y, oneThirdWidth, oneThirdHeight)
-
+# x,y,breath,length
 drawCarpet(50, 50, 600, 600)
 turtle.exitonclick()

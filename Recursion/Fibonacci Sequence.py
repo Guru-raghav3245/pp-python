@@ -1,6 +1,8 @@
 # Fibonacci sequence is a series of numbers where each number is the sum of the two preceding ones.
 # For example, if you start with 0 and 1, It goes like 0, 1, 1, 2, 3, 5, 8, 13, and continues.
 import time
+
+
 def fibonacci(no_of_times,a=None, count=None):
     if count == None:
         count = 1
